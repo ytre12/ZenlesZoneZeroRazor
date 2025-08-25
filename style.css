@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body {
+    background-color: black;
+}
+
+.text-wite {
+    color: white;
+}
+
+.flex-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 10px;
+    padding-inline: 30px;
+}
+
+.flex-head-element {
+    padding-inline: 30px;
+}
+
+.head-shadow {
+    box-shadow: 0px 1px #12ca37;
+}
+
+.head-image {
+    width: 100%;
+    padding-top: 5px;
+}
+
+.flex-top-body-text {
+    padding-block: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-block: 25px;
+}
+
+.size-text {
+    width: 70%;
+    text-align: center;
+}
+
+.color-size-text {
+    color: #63b1bc;
+    font-family: "Titillium Web";
+    font-size: 68px;
+    padding: 5px;
+    margin: 0px;
+}
+
+.text-seting-p {
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #9a9a9a;
+    padding: 0px;
+    margin: 0px;
+}
+
+.colab-name {
+    font-size: 26px;
+    font-weight: 100;
+    color: white;
+    font-family: "Roboto";
+    margin: 0px;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-block: 80px;
+}
+
+.small-text {
+    color:#9a9a9a;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.body-color-size-text {
+    color: white;
+    font-family: "Titillium Web";
+    font-size: 48px;
+    padding: 5px;
+    margin: 0px;
+}
+
+.text-body-margin {
+    margin: 15px;
+}
+
+.conteiner-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    width: 90%;
+}
+
+.img-conteiner-setings {
+    width: 500px;
+}
+
+.text-conteiner {
+    color: white;
+    font-family: "Titillium Web";
+    font-weight: 600;
+    font-size: 28px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.prise-item {
+    color: #44d62c;
+    font-family: "Titillium Web";
+    font-weight: 600;
+    font-size: 24px;
+    padding: 5px;
+    margin: 0px;
+}
+
+.btn-buy {
+    background-color: #44d62c;
+    border-radius: 4px;
+    border-style: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Roboto";
+    padding: 6px 11px;
+    margin-bottom: 10px;
+}
+
+.flex-center-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-block: 0px;
+}
+
+.a-btn {
+    color:#44d62c;
+    margin: 15px;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.big-margin {
+    margin-block: 50px;
+}
+
+.img-item-setings {
+    max-width: 100%;
+    height: auto;
+}
+
+.faqs-qest {
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+    width: 100%;
+    font-weight: 400;
+}
+
+.flex-center-faqs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faqs-block {
+    flex: 1 1 calc(45% - 10px);
+    background-color: #222;
+    /* width: 45%; */
+    margin: 10px;
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.flex-faqs-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.faqs-text {
+    color: #999;
+    font-family: "Roboto";
+    font-size: 16px;
+    width: 100%;
+    font-weight: 400;    
+}
+
+@media (max-width: 640px) {
+    .img-conteiner-setings {
+        width: 400px;
+    }    
+}
+
+@media (max-width: 500px) {
+    .img-conteiner-setings {
+        width: 300px;
+    }    
+}
+
+@media (max-width: 400px) {
+    .img-conteiner-setings {
+        width: 250px;
+    }    
+}
