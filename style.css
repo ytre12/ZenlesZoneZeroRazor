@@ -212,20 +212,134 @@ body {
     font-weight: 400;    
 }
 
+.btn-more {
+    background-color: #000;
+    border-style: none;
+}
+
+.flex-end-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 40px;
+}
+
+.bottom-end-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px #5f5f5f;
+    width: 80%;
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px -1px #5f5f5f;
+    margin-inline: 20px;
+}
+
+.gif-image-conteiner {
+    width: 250px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #3f3f3f;
+}
+
+.gift-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3f3f3f;
+    padding: 20px;
+}
+
+.gift-card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
 @media (max-width: 640px) {
     .img-conteiner-setings {
         width: 400px;
     }    
+
+    .colab-name {
+        font-size: 18px;
+    }
+
+    .color-size-text {
+        font-size: 30px;
+    }
+
+    .flex-center {
+        margin: 0px;
+    }
+
+    .body-color-size-text {
+        font-size: 28px;
+    }
+
+    .text-seting-p {
+        font-size: 16px;
+    }
+
+    .big-margin {
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .flex-head {
+        padding-inline: 10px;
+    }
+
+    .flex-head-element {
+        padding-inline: 0px;
+        padding-left: 30px;
+    }
+
+    .flex-top-body-text {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .gif-image-conteiner {
+        width: 200px;
+    }
 }
 
 @media (max-width: 500px) {
     .img-conteiner-setings {
         width: 300px;
     }    
+
+    .gif-image-conteiner {
+        width: 150px;
+    }
+
+    .big-margin {
+        margin: 0px;
+    }
 }
 
 @media (max-width: 400px) {
     .img-conteiner-setings {
         width: 250px;
     }    
+
+    .gif-image-conteiner {
+        width: 120px;
+        height: 120px;
+    }
 }
