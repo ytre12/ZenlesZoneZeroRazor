@@ -337,6 +337,23 @@ body {
     align-items: center; 
 }
 
+.add-items-style {
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prise-item-add {
+    color: #44d62c;
+    font-family: "Titillium Web";
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px;
+    margin: 0px;
+}
+
 @media (max-width: 640px) {
     .img-conteiner-setings {
         width: 400px;
